@@ -1,0 +1,11 @@
+<network>
+  <name>virbr-public</name>
+  <forward mode='nat'/>
+  <bridge name='virbr-pub' stp='on' delay='0'/>
+  <ip address='192.168.123.1' netmask='255.255.255.0'>
+    <dhcp>
+      <range start='192.168.123.2' end='192.168.123.10'/>
+      <host mac='52:54:00:e8:eb:f2' name='VM1_NAME' ip='192.168.123.2}'/>
+    </dhcp>
+  </ip>
+</network>

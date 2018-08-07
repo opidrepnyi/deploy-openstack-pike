@@ -1,0 +1,4 @@
+<network>
+  <name>virbr-tenant</name>
+  <bridge name='virbr-tenant'/>
+</network>
